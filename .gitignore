@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# test results and reports
+/playwright-report/
+/test-results/
+
+# temporary setup files
+install-node.bat
+install-node.cmd
+install-node.ps1
+install-nvm.ps1
+
+# VS Code
+.vscode/
